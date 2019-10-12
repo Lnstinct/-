@@ -1,0 +1,233 @@
+*{
+				margin: 0;
+				padding: 0;
+			}
+			#box1{
+					width:100%;
+					height: 80px;
+					margin: 0 auto;
+					background-color: rgba(255,255,255,0.6);
+					position: fixed;
+					top: 0;
+			}
+			#box1 img{
+					height: 40px;
+					float: left;
+					margin-left: 80px;
+					margin-top: 20px;
+					
+			}
+			#box1 a{
+					width: 50px;
+					height: 76px;
+					display: inline-block;
+					float: left;
+					margin-left: 85px;
+					color: black;
+					font-family: "楷体";
+					font-size: 25px;
+					line-height: 80px;	
+					text-decoration: none;
+			}
+			/*#box1 a:visited{
+				color: aquamarine;
+				border-bottom: 2px solid #7FFFD4;
+			}*/
+			#box1 a:hover{
+				/*text-decoration: underline;*/
+				color: aquamarine;
+				border-bottom: 2px solid #7FFFD4;
+			}
+			
+			#box1 ul{
+				float: left;
+				margin-left:180px;
+			}
+			#box2{
+				width: 100%;
+				height: 400px;
+				background-image: url(../img/nav_img2.jpg);
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+			}
+			#box2 p:first-child{
+				width: 100%;
+				height: 50px;
+				font-size: 35px;
+				margin-top: 310px;
+				margin-left: 170px;
+				float: left;
+				text-align: center;
+				animation: wenzi 2s 0s  forwards;
+			}
+			#box2 p:nth-child(2){
+				width: 100%;
+				height: 50px;
+				font-size: 25px;
+				float: left;
+				margin-top: 10px;
+				margin-left: 170px;
+				text-align: center;
+				animation: wenzi 2s 0s  forwards;
+			}
+			@keyframes wenzi{
+				0%{
+					transform: translateY(-20px);
+				}
+				100%{
+					transform: translateY(-120px);
+				}
+				
+			}
+			
+			#box2 p:first-child span{
+				margin-left: -350px;
+			}
+			#box2 p:nth-child(2) span{
+				margin-left: -350px;
+			}
+			#thr{
+				width: 100%;
+				height: 1920px;	
+			}
+			.than{
+				width: 350px;
+				height: 480px;
+				border-bottom: 3px solid rgb(201,201,201);
+				margin-left: 40px;
+				margin-top: 120px;
+				float: left;
+			}
+			.than div:first-child{
+				width: 350px;
+				height: 260px;
+				border: 1px solid rgb(201,201,201);
+				overflow: hidden;
+			}
+			.than div:nth-child(2){
+				width: 350px;
+				height: 180px;
+				
+				margin-top: 20px;
+			}
+			.than div:nth-child(2) p:first-child{
+				font-size: 40px;
+				text-align: center;
+			}
+			.than div:nth-child(2) p:nth-child(2){
+				font-size: 18px;
+				text-align: center;
+				line-height: 35px;
+				margin-top: 20px;
+			}
+			.than img:hover{
+				transform: scale(1.2);
+				animation: tu 2s 0s  forwards;
+			}
+			@keyframes tu{
+				0%{
+					transform: scale(1.1);
+				}
+				
+				100%{
+					transform: scale(1.3);
+				}
+				
+			}
+			#box4 li{
+				width: 40px;
+				height: 40px;
+				border: 1px solid  rgb(170,170,170); 
+				background-color: white;
+				text-align: center;
+				display: inline-block;
+				margin-left: 20px;
+				font-size: 20px;
+				color: rgb(170,170,170);
+				line-height: 40px;
+				border-radius: 3px 3px 3px 3px;
+			}
+			#box4 ul{
+				margin-left: 410px;
+			}
+			#box4 li:hover{
+				background-color: rgb(45,181,163);
+				color: white;
+				}
+			#box6{
+				width: 100%;
+				height: 300px;
+				background-color: rgb(94,102,100);
+				margin-top: 70px;
+			}
+			#box6>div:first-child{
+				width: 600px;
+				height: 30px;
+				margin: 0px auto;
+				position: relative;
+				left: -295px;
+				top: 50px;
+			}
+			#box6>div:first-child li{
+				display: inline-block;
+				margin-left: 30px;
+				font-size: 16px;
+				color: rgb(165,155,133);
+				cursor: pointer;
+			}
+			#box6>div:first-child li:hover{
+				color: white;
+			}
+			#box6>div:nth-child(2){
+				clear: left;
+				width: 350px;
+				height: 87px;
+				margin: 0 auto;
+				position: relative;
+				top: 120px;
+				left: -395px;
+			}
+			#d1{
+				width: 87px;
+				height: 87px;
+				
+				float: left;
+			}
+			#d2{
+				width: 32px;
+				height: 87px;				
+				float: left;				
+			}
+			#d3{
+				width: 200px;
+				height: 87px;				
+				float: left;
+			}
+			#d3 span:first-child{
+				font-size: 14px;
+				font-family: "微软雅黑";
+				color: white;
+				margin-top: 26px;
+				float: left;
+				
+			}
+			#d3 span:nth-child(2){
+				font-size: 14px;
+				font-family: "微软雅黑";
+				color: white;
+				margin-top: 15px;
+				float: left;
+			}
+			#box7{
+				width: 300px;
+				height: 50px;
+				margin: 0 auto;
+				position: relative;
+				top: 70px;
+				left: 410px;
+			}
+			#box7 span{
+				font-size: 15px;
+				color: white;
+				font-family: "微软雅黑";
+			}

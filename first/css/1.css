@@ -1,0 +1,344 @@
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			#box1{
+					width:100%;
+					height: 80px;
+					margin: 0 auto;
+					background-color: rgba(255,255,255,0.6);
+					position: fixed;
+					top: 0;
+			}
+			#box1 img{
+					height: 40px;
+					float: left;
+					margin-left: 150px;
+					margin-top: 20px;
+					
+			}
+			#box1 a{
+					width: 50px;
+					height: 76px;
+					display: inline-block;
+					float: left;
+					margin-left: 85px;
+					color: black;
+					font-family: "楷体";
+					font-size: 25px;
+					line-height: 80px;	
+					text-decoration: none;
+			}
+			/*#box1 a:visited{
+				color: aquamarine;
+				border-bottom: 2px solid #7FFFD4;
+			}*/
+			#box1 a:hover{
+				/*text-decoration: underline;*/
+				color: aquamarine;
+				border-bottom: 2px solid #7FFFD4;
+			}
+			
+			#box1 ul{
+				float: left;
+				margin-left:150px;
+			}
+			#box2{
+				width:100%;
+				height: 898px;
+				background-image: url(../img/banner1.jpg);
+				background-size: 100% 100%;
+				clear: left;
+				padding-top: 200px;
+				box-sizing: border-box;
+			}
+			#s1{
+				font-size: 50px;
+				margin-left: 100px;
+			}
+			#s2{
+				font-size: 40px;
+				margin-left: 65px;
+				color: rgba(0,0,0,0.4);
+			}
+			#box2 div{
+				width: 450px;
+				height: 150px;
+				letter-spacing: 20px;
+				margin-top: 50px;
+				line-height: 70px;
+				margin: 0 auto;
+			}
+			
+			#box3{
+				width: 100%;
+				height: 300px;	
+			}
+			#box3 p{
+				width: 500px;
+				height: 60px;
+				margin-top:100px;
+				margin-left:400px;
+				float: left;
+				font-size: 40px;
+			}
+			#box3 span{
+				font-size: 42px;
+				color: #7FFFD4;
+			}
+			#box4{
+				width: 100%;
+				height: 350px;
+				margin-top: -30px;
+			}
+			#box4 div:nth-child(1){
+				float: left;
+				width: 290px;
+				height: 340px;
+				border: 1px solid  lightgray;
+				
+				
+			}
+			#box4 div:nth-child(2){
+				float: left;
+				width: 290px;
+				height: 340px;
+				border: 1px solid lightgray;
+				margin-left: 10px;
+			}
+			#box4 div:nth-child(3){
+				float: left;
+				width: 290px;
+				height: 340px;
+				border: 1px solid lightgray;
+				margin-left: 10px;
+			}
+			#box4 div:nth-child(4){
+				float: left;
+				width: 290px;
+				height: 340px;
+				border: 1px solid  lightgray;
+				margin-left: 10px;
+			}
+			#box4 div:hover{
+				 box-shadow: 2px 0 10px 1px  #808080;
+			}
+			#box4 img{
+				margin-left: 110px;
+				margin-top: 30px;
+			}	
+			#box4 img:hover{
+				transform:  rotateY(360deg);
+				transition: all 1s ease-in-out;
+			}
+			#p1{
+				font-size: 25px;
+				color: gray;
+				margin-left: 100px;
+				margin-top: 20px;
+			}
+			.p2{
+				margin-top: 20px;
+			}
+			.p2, .p3{
+				font-size: 18px;
+				font-family: "宋体";
+				line-height: 30px;
+				margin-left: 40px;
+				color: darkgrey;				
+			}
+			#p4{
+				font-size: 18px;
+				font-family: "宋体";
+				line-height: 30px;
+				margin-left: 95px;
+				color: darkgrey;
+			}
+			#p5{
+				font-size: 21px;
+				margin-left: 110px;
+				margin-top: 30px;
+				color: #7FFFD4;
+				cursor: pointer;
+			}
+			#box5{
+				width: 100%;
+				height: 1330px;
+				background-color:#f9f9f9;
+				margin-top: 50px;
+			}
+			#box5> div:first-child{
+				width: 100%;
+				height: 60px;
+				
+				margin-top:100px;
+				float: left;
+				font-size: 40px;
+			}
+			#box5 div:first-child p{
+				margin-left:400px;
+				float: left;
+			}
+			#box5 div:first-child span{
+				font-size: 42px;
+				color: #7FFFD4;
+			}
+			#box5> div:nth-child(2){
+				width: 560px;
+				height: 400px;
+				background-color: white;
+				float: left;
+				margin-left: 15px;
+				margin-top: 90px;
+				
+			}
+			#box5 >div:nth-child(3){
+				width: 560px;
+				height: 400px;
+				background-color: white;
+				float: left;
+				margin-top: 90px;
+				margin-left: 50px;
+			}
+			#box5 >div:nth-child(4){
+				width: 560px;
+				height: 400px;
+				background-color: white;
+				clear: left;
+				float: left;
+				margin-left: 15px;
+				margin-top: 50px;
+			}
+			#box5 >div:nth-child(5){
+				width: 560px;
+				height: 400px;
+				background-color: white;
+				float: left;
+				margin-top: 50px;
+				margin-left: 50px;
+			}
+			.c1{
+				width: 280px;
+				height: 400px;
+				
+				float: left;
+			}
+			.c2{
+				width: 278px;
+				height: 398px;
+				
+				float: left;
+			}
+			.c2 span:first-child{
+				float: left;
+				font-size: 17px;
+				margin-left: 40px;
+				margin-top: 55px;
+			}
+			.c3{
+				
+				width: 60px;
+				
+				margin-left: 40px;
+				margin-top: 85px;
+			}
+			.c4{
+				width: 200px;
+				height: 200px;
+				
+				margin-left: 40px;
+				margin-top: 30px;
+				font-size: 15px;
+				color: darkgrey;
+				line-height: 30px;
+			}
+			#box5 >form input{
+				float: left;
+				width: 220px;
+				height: 50px;
+				border: 1px solid rgb(127,211,189);
+				margin-top: 540px;
+				margin-left: -700px;
+				background-color: rgb(127,211,189);
+				font-size: 20px;
+				color: azure;
+				border-radius: 5px 5px 5px 5px ;
+				cursor: pointer;
+			}
+			#box6{
+				width: 100%;
+				height: 300px;
+				background-color: rgb(94,102,100);
+				
+			}
+			#box6>div:first-child{
+				width: 600px;
+				height: 30px;
+				margin: 0px auto;
+				position: relative;
+				left: -330px;
+				top: 50px;
+			}
+			#box6>div:first-child li{
+				display: inline-block;
+				margin-left: 30px;
+				font-size: 16px;
+				color: rgb(165,155,133);
+				cursor: pointer;
+			}
+			#box6>div:first-child li:hover{
+				color: white;
+			}
+			#box6>div:nth-child(2){
+				clear: left;
+				width: 350px;
+				height: 87px;
+				margin: 0 auto;
+				position: relative;
+				top: 120px;
+				left: -425px;
+			}
+			#d1{
+				width: 87px;
+				height: 87px;
+				
+				float: left;
+			}
+			#d2{
+				width: 32px;
+				height: 87px;				
+				float: left;				
+			}
+			#d3{
+				width: 200px;
+				height: 87px;				
+				float: left;
+			}
+			#d3 span:first-child{
+				font-size: 14px;
+				font-family: "微软雅黑";
+				color: white;
+				margin-top: 26px;
+				float: left;
+				
+			}
+			#d3 span:nth-child(2){
+				font-size: 14px;
+				font-family: "微软雅黑";
+				color: white;
+				margin-top: 15px;
+				float: left;
+			}
+			#box7{
+				width: 300px;
+				height: 50px;
+				margin: 0 auto;
+				position: relative;
+				top: 70px;
+				left: 460px;
+			}
+			#box7 span{
+				font-size: 15px;
+				color: white;
+				font-family: "微软雅黑";
+			}
